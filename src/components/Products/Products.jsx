@@ -3,8 +3,7 @@ import { filterContext } from "../../context/FilterContext"
 
 
 import React from 'react'
-import MyLife from "../../MyLife"
-// import Card from "../Card/Card"
+
 
 const Products = () => {
   const {result} = filterContext()
@@ -14,7 +13,6 @@ const Products = () => {
 
       {result }
 
-      <MyLife className="product-container"/>
   
 
       
